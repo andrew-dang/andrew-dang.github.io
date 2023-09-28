@@ -6,7 +6,9 @@ layout: single
 classes: wide
 tags:
   - Pokemon TCG
-  - tournaments
+  - Plotly
+  - Dash
+  - Heroku
   - PTCGL
   - dashboard
 ---
@@ -34,6 +36,6 @@ To use the dashboard, there are 3 dropdowns that users can select from that chan
 
 The second and third dropdowns represent the \'Active Deck\' or the deck of interest, and the \'Opposing Deck\' respectively. The line graph will show the Active Deck's win rates over time against the decks selected in the Opposing Deck dropdown. The Opposing Deck dropdown also affects the heatmap, which shows the overall win rate between different decks since the selected Expansion's release date. By default, the top 5 decks by games played are pre-selected in the Opposing Deck dropdown. 
 
-<iframe src="https://limitlesstcg-analysis.herokuapp.com/" title="Pokemon TCG Dashboard"></iframe>
+<iframe src="https://limitlesstcg-analysis.herokuapp.com/" title="Pokemon TCG Dashboard" allowfullscreen="true"></iframe>
 
 As time goes by, players adjust their strategies to the new metagame. Archetypes that were dominant early in the Expansion's release may see a drop in win rate as players make adjustments to their play and deck building choices to deal with the problematic archetype. This dashboard helps visualize these trends over time and players can use this data to guide their decisions with selecting an archetype or with deck building to maximize their chances of winning games at official events.   
