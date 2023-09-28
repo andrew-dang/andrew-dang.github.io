@@ -3,6 +3,7 @@ permalink: /portfolio/
 title: "Portfolio"
 toc: true
 toc_label: "Table of Contents"
+author_profile: true
 ---
 
 *Last updated: September 27, 2023*
