@@ -1,18 +1,31 @@
+---
+title: "Peel Region Real-Estate Comparison Dashboard"
+categories:
+  - blog
+layout: single
+classes: wide
+tags:
+  - real-estate
+  - Plotly
+  - Dash
+  - GCP
+  - dashboard
+---
+
 # Motivation
 Recently, I have been interested in the real-estate market. Many of the websites I use to look at listings provide details about the home itself, but don’t necessarily compare the list price against other homes available on the market. I wanted to create a dashboard where I can select a listing, and compare the list price against similar homes that are available. 
 
 # Technologies Used
 Different technologies were used to complete this project. Below is a list of technologies and products that were used. 
 
-Programming Languages: Python, SQL, CSS
-Data Processing: PySpark 
-Data Visualization: Plotly, Dash
-Relational Database: PostgreSQL
-Cloud: GCP - Cloud Storage, Cloud SQL, Dataproc, Compute Engine, Cloud Run
-Data Generator: Synth
-Orchestration: Airflow
-Other: Terraform, Docker
-
+**Programming Languages**: Python, SQL, CSS  
+**Data Processing**: PySpark  
+**Data Visualization**: Plotly, Dash  
+**Relational Database**: PostgreSQL  
+**Cloud**: GCP - Cloud Storage, Cloud SQL, Dataproc, Compute Engine, Cloud Run  
+**Data Generator**: Synth  
+**Orchestration**: Airflow  
+**Other**: Terraform, Docker  
 # About the Data 
 Ideally, I would like to use data from real listings from a multiple listing service. However, to get access to this data in Canada, you either need to be a member of a real estate board, or pay for an API that provides access. I am neither a real-estate agent, nor did I want to pay for an API while I build out a proof-of-concept. 
 
@@ -35,7 +48,7 @@ Other GCP products used include Cloud Run to deploy the app, Artifact Registry t
 # Dashboard and Web App
 The dashboard was built using Plotly and Dash. Data is pulled from the Cloud SQL database to populate the fields in the dashboard. Users can either search for or select a listing by address from the dropdown menu and the dashboard will display its listing details. 
 
-## What is \‘Similar\’? 
+## What is ‘Similar’? 
 For the purpose of this dashboard, a listing that is similar to the selected listing should be in the same city, and the same property type (semi-detached, townhome or single detached). The two bar graphs at the bottom of the dashboard compares the selected listing against similar homes in the database.
 
 The bar graph on the left compares the list price of the selected listing against the average price of other listings in the same city grouped by the Square Foot Range. Similarly, the bar graph on the right compares the list price of the selected listing against the average price of other listings in the same city grouped by Age Range. 
