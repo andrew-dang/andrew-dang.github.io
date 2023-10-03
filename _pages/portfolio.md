@@ -18,6 +18,6 @@ A dashboard that tracks match-up data in the Pokemon Trading Card Game over time
 ### [Peel Region Real Estate Dashboard](../blog/real-estate-dash)
 [![](https://img.shields.io/badge/Blog-Read%20Article-blue?logo=blogger)](../blog/real-estate-dash/) [![](https://img.shields.io/badge/Google_Cloud_Run-View%20on%20Cloud%20Run-blue?logo=googlecloud)](https://dash-app-ctyqyt7wvq-uc.a.run.app/)
 
-![](../assets/images/property-details.png)
+[![](../assets/images/property-details.png)](../blog/real-estate-dash)
 
 A dashboard that displays listing information and determine if a listing is fairly priced based on comparable homes on the market. 
