@@ -42,7 +42,7 @@ Having looked at several listing websites, I had a general idea of what informat
 # Data Pipeline 
 The first step in the data pipeline was to generate the listings. The generated listings were saved to JSON files locally before they were uploaded to cloud storage. Next, transformations were applied to the raw listings to add details like the age range and square footage range of the listing. As part of the transformations, a field for the list price was created using a custom function that created realistic (or at least more realistic than a completely random number) list prices based on the size of the home and property type. These transformations were completed using PySpark, and the transformed data was loaded into a Postgres database. I wanted to simulate listings being updated or removed from the database, so two additional PySpark jobs were created which would update and delete a small random percentage of listings from the database. 
 
-![System architecture](../assets/images/system-architecture.png)
+[![System architecture](../../assets/images/system-architecture.png)](https://dash-app-ctyqyt7wvq-uc.a.run.app/)
 
 Two additional tasks are included in the pipeline, which involved the Spark cluster creation and deletion. To keep costs low, the Spark cluster is created when the DAG is triggered, and is torn down once all the Spark related tasks are complete. 
 
@@ -61,7 +61,7 @@ For the purpose of this dashboard, a listing is considered similar to the select
 
 The two bar graphs at the bottom of the dashboard compares the selected listing against similar homes in the database.The bar graph on the left compares the list price of the selected listing against the average price of other listings in the same city grouped by the Square Foot Range. Similarly, the bar graph on the right compares the list price of the selected listing against the average price of other listings in the same city grouped by Age Range. 
 
-![Comparing listing against similar homes](../assets/images/property-comparison.png)
+[![Comparing listing against similar homes](../../assets/images/property-comparison.png)](https://dash-app-ctyqyt7wvq-uc.a.run.app/)
 
 Using these bar graphs, users can get an indication of whether a listing is under- or over-valued when compared to similar homes on the market. 
 
