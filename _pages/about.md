@@ -6,19 +6,18 @@ title: "About"
 
 Hello there! 
 
-My name is Andrew Dang. While completing my Master of Science in Biomechanics, I fell in love with data processing and data analysis. Upon graduation, I enrolled in a Data Science Diploma program at BrainStation. Previously I have worked at Forma.ai as an Analytics Engineer where I developed and maintained data pipelines that powered our SaaS platform. I also have experience working as a Business Intelligence Engineer at Badal where my focus was on building dashboards that monitored our cloud spending. 
+My name is Andrew Dang. I love creating and automating data pipelines. What excites me the most is the process of figuring out what transformations need to be applied to the raw data to map it to a form that enables stakeholders to answer their specific business questions. Every new data source is a new puzzle, and I love nothing more than a challenging problem. Previously, I have worked at Forma.ai as an Analytics Engineer where I developed and maintained data pipelines that powered our SaaS platform. I also have experience working as a Business Intelligence Engineer at Badal where I built dashboards that monitored our cloud spending. 
 
-I enjoy integrating my technical skills with my hobbies. I built a dashboard that collects online tournament results for the Pokemon Trading Card Game to keep track of the performance of different deck archetypes. I believe in using data to gain a competitive advantage and I strive to help others make data driven decisions. 
+Outside of working with data, I enjoy hiking with my dog Louie, who ensures there is never a dull moment. 
+![](../assets/images/louie.jpg)
+
+I also thoroughly enjoy integrating my technical skills with my hobbies. You may view a sample of my personal projects over by my [portfolio](../portfolio).
 
 ## Technical Skills
-- Python 
-- SQL
-- PySpark 
-- Business Intelligence (Looker, Tableau)
-- AWS (EC2, EMR, RDS, S3)
-- GCP (Compute Engine, Dataproc, Cloud SQL, BigQuery, Cloud Storage, Cloud Run)
-- Airflow
-- Prefect
-- Databricks
+**Programing Languages:** Python, SQL   
+**Data Processing:** SQL, PySpark, Databricks  
+**Data Visualization/Business Intelligence:** Looker, Tableau, Plotly, Dash  
+**Cloud:** AWS (EC2, EMR, RDS, S3), GCP (Compute Engine, Dataproc, Cloud SQL, BigQuery, Cloud Storage, Cloud Run)
+**Workflow Orchestration:** Airflow, Prefect, Databricks
 
 [View My Portfolio]({% link _pages/portfolio.md %}){: .btn .btn--info .btn--center}
