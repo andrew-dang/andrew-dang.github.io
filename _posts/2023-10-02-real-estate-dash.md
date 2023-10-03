@@ -67,7 +67,7 @@ The two bar graphs at the bottom of the dashboard compares the selected listing 
 
 Using these bar graphs, users can get an indication of whether a listing is under- or over-valued when compared to similar homes on the market. 
 
-## Key Takeaways
+# Key Takeaways
 The dashboard allows users to gauge whether a property is listed fairly by comparing it against similar homes, albeit using generated data. The insights derived from data analysis is only as good as the quality of the data itself, so using actual listing data would provide more meaningful conclusions. 
 
 The generated data contained a small set of listing details. In the future, I would love to speak with subject matter experts like real-estate agents to validate that the information that is currently displayed affects the number of viewings a property has, and ultimately, help sell the property. I’d also like to ask if there are other key details that are missing and should be included in the dashboard.

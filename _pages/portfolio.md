@@ -6,7 +6,7 @@ toc_label: "Table of Contents"
 author_profile: true
 ---
 
-*Last updated: September 27, 2023*
+*Last updated: October 03, 2023*
 
 ## Data Visualization Projects
 
