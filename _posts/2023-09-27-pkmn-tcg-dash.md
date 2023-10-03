@@ -38,4 +38,4 @@ The second and third dropdowns represent the \'Active Deck\' or the deck of inte
 
 [![](../../assets/images/pkmn-dash.png)](https://limitlesstcg-analysis.herokuapp.com/)
 
-As time goes by, players adjust their strategies to the new metagame. Archetypes that were dominant early in the Expansion's release may see a drop in win rate as players make adjustments to their play and deck building choices to deal with the problematic archetype. This dashboard helps visualize these trends over time and players can use this data to guide their decisions with selecting an archetype or with deck building to maximize their chances of winning games at official events.   7
+As time goes by, players adjust their strategies to the new metagame. Archetypes that were dominant early in the Expansion's release may see a drop in win rate as players make adjustments to their play and deck building choices to deal with the problematic archetype. This dashboard helps visualize these trends over time and players can use this data to guide their decisions with selecting an archetype or with deck building to maximize their chances of winning games at official events.
