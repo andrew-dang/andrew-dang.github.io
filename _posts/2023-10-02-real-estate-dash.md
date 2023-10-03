@@ -1,5 +1,5 @@
 ---
-title: "Peel Region Real-Estate Comparison Dashboard"
+title: "Peel Region Real Estate Comparison Dashboard"
 categories:
   - blog
 layout: single
@@ -11,6 +11,8 @@ tags:
   - GCP
   - dashboard
 ---
+
+[![](https://img.shields.io/badge/Google_Cloud_Run-Go_to_app-blue?logo=googlecloud)](https://dash-app-ctyqyt7wvq-uc.a.run.app/)
 
 # Motivation
 Recently, I have been interested in the real-estate market. Many of the websites I use to look at listings, such as [realtor.ca](https://www.realtor.ca/), [zolo.ca](https://www.zolo.ca/), and [zillow.com](https://www.zillow.com/) provide plentiful information about the listing itself, such as the number of rooms, the property type, the amount of property taxex, the list price, and some stats about the neighbourhood. As a potential homebuyer, all of these details may help you with your purchasing decisions. 

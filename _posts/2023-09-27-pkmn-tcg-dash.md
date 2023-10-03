@@ -13,7 +13,7 @@ tags:
   - dashboard
 ---
 
-[![](https://img.shields.io/badge/GitHub-View%20on%20GitHub-blue?logo=github)](https://github.com/andrew-dang/limitless_scrape) [![](https://img.shields.io/badge/Heroku-View%20on%20Heroku-blue?logo=heroku)](https://limitlesstcg-analysis.herokuapp.com/)
+[![](https://img.shields.io/badge/GitHub-View%20on%20GitHub-blue?logo=github)](https://github.com/andrew-dang/limitless_scrape) [![](https://img.shields.io/badge/Heroku-Go_to_app-blue?logo=heroku)](https://limitlesstcg-analysis.herokuapp.com/)
 
 ## Motivation
 The Pokemon Trading Card Game \(PTCG\) is a turn-based card game based on the ever popular game franchise. Each player builds a 60 card deck, and the objective of the game is to take all your prize cards by knocking out your opponent's Pokemon. Players may choose to include any cards in the legal card pool in their deck. There are different decks or archetypes that focus on different Pokemon, and thus, different strategies for victory. 
@@ -36,6 +36,6 @@ To use the dashboard, there are 3 dropdowns that users can select from that chan
 
 The second and third dropdowns represent the \'Active Deck\' or the deck of interest, and the \'Opposing Deck\' respectively. The line graph will show the Active Deck's win rates over time against the decks selected in the Opposing Deck dropdown. The Opposing Deck dropdown also affects the heatmap, which shows the overall win rate between different decks since the selected Expansion's release date. By default, the top 5 decks by games played are pre-selected in the Opposing Deck dropdown. 
 
-<iframe src="https://limitlesstcg-analysis.herokuapp.com/" title="Pokemon TCG Dashboard" height="900px" width="100%"></iframe>
+<iframe src="https://limitlesstcg-analysis.herokuapp.com/" title="Pokemon TCG Dashboard" height="100%" width="100%" frameBorder="0"></iframe>
 
-As time goes by, players adjust their strategies to the new metagame. Archetypes that were dominant early in the Expansion's release may see a drop in win rate as players make adjustments to their play and deck building choices to deal with the problematic archetype. This dashboard helps visualize these trends over time and players can use this data to guide their decisions with selecting an archetype or with deck building to maximize their chances of winning games at official events.   
+As time goes by, players adjust their strategies to the new metagame. Archetypes that were dominant early in the Expansion's release may see a drop in win rate as players make adjustments to their play and deck building choices to deal with the problematic archetype. This dashboard helps visualize these trends over time and players can use this data to guide their decisions with selecting an archetype or with deck building to maximize their chances of winning games at official events.   7
