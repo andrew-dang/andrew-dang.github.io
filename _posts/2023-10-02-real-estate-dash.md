@@ -58,6 +58,8 @@ Other GCP products used include Cloud Run to deploy the app, Artifact Registry t
 # Dashboard and Web App
 The dashboard was built using Plotly and Dash. Data is pulled from the Cloud SQL database to populate the fields in the dashboard. Users can either search for or select a listing by address from the dropdown menu and the dashboard will display its listing details. 
 
+[![Comparing listing against similar homes](../../assets/images/property-details.png)](https://dash-app-ctyqyt7wvq-uc.a.run.app/)
+
 ## What is ‘Similar’? 
 For the purpose of this dashboard, a listing is considered similar to the selected listing if it is in the same city, and is the same property type (semi-detached, townhome or single detached). 
 
