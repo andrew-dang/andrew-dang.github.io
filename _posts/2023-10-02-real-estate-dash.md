@@ -63,7 +63,7 @@ The dashboard was built using Plotly and Dash. Data is pulled from the Cloud SQL
 ## What is ‘Similar’? 
 For the purpose of this dashboard, a listing is considered similar to the selected listing if it is in the same city, and is the same property type (semi-detached, townhome or single detached). 
 
-The two bar graphs at the bottom of the dashboard compares the selected listing against similar homes in the database.The bar graph on the left compares the list price of the selected listing against the average price of other listings in the same city grouped by the Square Foot Range. Similarly, the bar graph on the right compares the list price of the selected listing against the average price of other listings in the same city grouped by Age Range. 
+The two bar graphs at the bottom of the dashboard compares the selected listing against similar homes in the database. The bar graph on the left compares the list price of the selected listing against the average price of other listings in the same city grouped by the Square Foot Range. Similarly, the bar graph on the right compares the list price of the selected listing against the average price of other listings in the same city grouped by Age Range. 
 
 [![Comparing listing against similar homes](../../assets/images/property-comparison.png)](https://dash-app-ctyqyt7wvq-uc.a.run.app/)
 
