@@ -16,8 +16,8 @@ I also thoroughly enjoy integrating my technical skills with my hobbies. You may
 ## Technical Skills
 **Programing Languages:** Python, SQL   
 **Data Processing:** SQL, PySpark, Databricks  
-**Data Visualization/Business Intelligence:** Looker, Tableau, Plotly, Dash  
-**Cloud:** AWS (EC2, EMR, RDS, S3), GCP (Compute Engine, Dataproc, Cloud SQL, BigQuery, Cloud Storage, Cloud Run)
+**Business Intelligence:** Looker, Tableau, Plotly, Dash  
+**Cloud:** AWS, GCP
 **Workflow Orchestration:** Airflow, Prefect, Databricks
 
 [View My Portfolio]({% link _pages/portfolio.md %}){: .btn .btn--info .btn--center}

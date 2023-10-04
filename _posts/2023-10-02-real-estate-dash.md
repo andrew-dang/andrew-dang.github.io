@@ -73,3 +73,5 @@ The dashboard allows users to gauge whether a property is listed fairly by compa
 The generated data contained a small set of listing details. In the future, I would love to speak with subject matter experts like real-estate agents to validate that the information that is currently displayed affects the number of viewings a property has, and ultimately, help sell the property. I’d also like to ask if there are other key details that are missing and should be included in the dashboard.
 
 Another group of people I’d like to speak with are potential homebuyers. I’d like to know what listing information is important to them when they are considering different homes on the market. I can include those details in the dashboard as well to help them make more informed decisions. 
+
+I learned a lot from this project. Developing on the cloud is a very different experience from developing on a local machine - I never had to worry so much about networking! You can read a more in-depth breakdown of my key learnings in this [blog post here](../blog/lessons-learned).
