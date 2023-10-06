@@ -17,7 +17,7 @@ I also thoroughly enjoy integrating my technical skills with my hobbies. You may
 **Programing Languages:** Python, SQL   
 **Data Processing:** SQL, PySpark, Databricks  
 **Business Intelligence:** Looker, Tableau, Plotly, Dash  
-**Cloud:** AWS, GCP
-**Workflow Orchestration:** Airflow, Prefect, Databricks
+**Cloud:** AWS, GCP  
+**Workflow Orchestration:** Airflow, Prefect, Databricks  
 
 [View My Portfolio]({% link _pages/portfolio.md %}){: .btn .btn--info .btn--center}
